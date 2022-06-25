@@ -30,16 +30,39 @@ body {
     color: var(--primary-text-color);
 }
 
-/* primary text color: #757575; */
-/* secondary text color: #212121; */
-/* hero text color: #FFFFFF; */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
 
-/* primary bcg color: E5E5E5 */
-/* team bcg color: #F5F4FA; */
-/* bcg of header: #FFFFFF; */
-/* bcg of hero and footer: #2F303A; */
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 /* Page WebStudio */
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+}
+
 /* header: */
     /* logo */
 .logo-web,
@@ -79,17 +102,12 @@ body {
 }
 
 .nav-link,
-.mail-link,
-.tel-link {
-    text-decoration: none;
-}
-
-.nav-link,
 .contacts .mail-link,
 .contacts .tel-link {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
     color: var(--title-text-color);
 }
 
@@ -102,17 +120,6 @@ body {
 .contacts .mail-link,
 .contacts .tel-link {   
     color: var(--primary-text-color);
-}
-
-.contacts .mail-link:hover,
-.contacts .mail-link:focus,
-.contacts .tel-link:hover,
-.contacts .tel-link:focus,
-.address .mail-link:hover,
-.address .mail-link:focus,
-.address .tel-link:hover,
-.address .tel-link:focus {
-    color: var(--accent-color);
 }
 
 /* hero */
@@ -234,6 +241,13 @@ body {
 .address .mail-link,
 .address .tel-link {
     color: var(--address-text-color);
+}
+
+.mail-link:hover,
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus {
+    color: var(--accent-color);
 }
 
 
