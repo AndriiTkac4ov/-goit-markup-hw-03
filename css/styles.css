@@ -55,17 +55,17 @@ img {
 }
 
 /* Page WebStudio */
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 /* header: */
@@ -176,6 +176,7 @@ img {
 
 /* hero */
 .hero {
+    padding: 200px 0;
     text-align: center;
 }
 
@@ -211,6 +212,8 @@ img {
     background-color: var(--hero-button-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
+    cursor: pointer;
 }
 
 .hero-button:hover,
@@ -261,6 +264,10 @@ img {
 }
 
 /* activities */
+.activities {
+    padding-top: 0;
+}
+
 .section-title {
     margin-bottom: 50px;
 
@@ -299,7 +306,14 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 
+.wrapper-team-member {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .team-member-name {
+    margin-bottom: 10px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -308,15 +322,16 @@ img {
 }
 
 .team-member-function {
+    margin-bottom: 0;
+
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
 }
 
 /* footer */
-.footer-nav {
-    padding-top: 60px;
-    padding-bottom: 60px;
+.footer {
+    padding: 60px 0;
 }
 
 .logo-footer {
@@ -440,6 +455,8 @@ img {
 }
 
 .portfolio-form {
+    margin-bottom: 0;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
